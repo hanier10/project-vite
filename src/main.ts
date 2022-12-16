@@ -1,7 +1,7 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { setupCounter } from "./counter";
-import { bulbasaur } from "./bases/02-objects";
+// import { bulbasaur, pokemons } from "./bases/02-objects";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
-    <h1>Hello ${bulbasaur.name}</h1>
+    <h1>Hello Vite!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
