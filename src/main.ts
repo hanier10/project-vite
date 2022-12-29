@@ -1,7 +1,7 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { setupCounter } from "./counter";
-import { charmander } from "./bases/05-decorators";
+import { charmander } from "./bases/06-decorators2";
 // import { bulbasaur, pokemons } from "./bases/02-objects";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
